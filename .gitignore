@@ -1,0 +1,18 @@
+# Ignore sensitive files
+*.pbix
+*.pbit
+
+# Ignore data files (too big for GitHub)
+data/raw/*
+data/processed/*
+!data/raw/.keep   # Optional placeholder
+!data/processed/.keep
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+venv/
