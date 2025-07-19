@@ -28,3 +28,20 @@ Product Analysis:
 Geographical Insights:
 -Regional sales distribution
 -State-level performance comparison
+
+
+Getting Started
+Prerequisites
+Power BI Desktop (September 2023 or later)
+
+Microsoft Excel (for data source viewing)
+
+Power BI service account (for cloud deployment)
+
+Installation
+Clone this repository
+
+Open powerbi/sales_dashboard.pbix in Power BI Desktop
+
+Configure data sources if prompted
+
