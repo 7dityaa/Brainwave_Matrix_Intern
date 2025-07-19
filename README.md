@@ -95,7 +95,7 @@ retail-sales-dashboard/
 
 ## 📧 Contact
 
-For any questions or suggestions, feel free to open an issue or contact me at [your.email@example.com](adityaadhikari155@gmail.com).
+For any questions or suggestions, feel free to open an issue or contact me at [adityaadhikari155@gmail.com](adityaadhikari155@gmail.com).
 
 ---
 
