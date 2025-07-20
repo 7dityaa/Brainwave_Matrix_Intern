@@ -1,0 +1,16 @@
+-Avg Order Amount = DIVIDE([Net Profit],[Order count])
+-Net Profit = SUM(Orders[Profit])
+-Order count = COUNT(Orders[Category])
+-Profit Margin = DIVIDE([Net Profit],[Total Sale])
+-Py profit = CALCULATE([Net Profit], DATEADD(calender[Date],-1,YEAR))
+-Total Profit running total = 
+CALCULATE(
+	[Net Profit],
+	FILTER(
+		ALLSELECTED('calender'[Date]),
+		ISONORAFTER('calender'[Date], MAX('calender'[Date]), DESC)
+	)
+)
+-Total Sale = SUM(Orders[Quantity])
+-YoY profit = [Net Profit]- [Py profit]
+-YOY profit percentage = DIVIDE([YoY profit],[Py profit])
